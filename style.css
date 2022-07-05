@@ -1,3 +1,23 @@
-h1 {
+body {
   font-family: "Gentium Book Plus", serif;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 100px;
+  background-color: d9e3df;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+  color: rgba(6, 6, 6, 0.815);
+}
+h2 {
+  font-size: 26px;
+}
+button {
+  background-color: #d9ddeb;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-weight: bold;
 }
