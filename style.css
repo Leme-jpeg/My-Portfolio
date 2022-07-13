@@ -3,6 +3,28 @@ body {
   text-align: center;
   background-color: d9e3df;
 }
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url("images/water.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: space;
+}
+.hero {
+  padding-top: 10%;
+}
+.hero-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  padding-right: 20px;
+
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h1 {
   font-weight: bold;
@@ -26,12 +48,22 @@ button {
 }
 
 .examples {
-  margin-top: 180px;
   text-align: center;
 }
 
+.description {
+  padding-top: 10%;
+  background-color: rgb(216, 242, 149, 0.3);
+  border-radius: 4px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
+  }
+  .examples {
+    margin-top: 0px;
+  }
+  .title {
+    font-size: 20px;
   }
 }
