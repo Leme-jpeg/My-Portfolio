@@ -12,13 +12,15 @@ body {
 }
 .hero {
   padding-top: 10%;
+  font-size: 80px;
 }
 .hero-text {
   text-align: center;
   top: 50%;
   left: 50%;
   color: white;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
 
   height: 70vh;
   display: flex;
@@ -56,6 +58,23 @@ button {
   background-color: rgb(216, 242, 149, 0.3);
   border-radius: 4px;
 }
+
+.contact {
+  margin-bottom: 20px;
+}
+li:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+.socials {
+  padding-right: 20px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
@@ -66,7 +85,16 @@ button {
   .title {
     font-size: 20px;
   }
-}
-.contact {
-  margin-bottom: 20px;
+
+  .hero-image {
+    background-image: url("images/water2.jpg");
+    width: 100vw;
+    height: 200vh;
+  }
+
+  .hero-text {
+    display: block;
+    color: black;
+    padding: 30px;
+  }
 }
