@@ -3,6 +3,9 @@ body {
   text-align: center;
   background-color: d9e3df;
 }
+.navbar {
+  font-size: 22px;
+}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("images/water.jpg");
@@ -21,7 +24,7 @@ body {
   color: white;
   padding-right: 30px;
   padding-left: 30px;
-
+  font-size: 25px;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -55,7 +58,7 @@ button {
 
 .description {
   padding-top: 10%;
-  background-color: rgb(216, 242, 149, 0.3);
+  background-color: rgba(17, 50, 184, 0.041);
   border-radius: 4px;
 }
 
@@ -73,7 +76,14 @@ a {
 }
 .socials {
   padding-right: 20px;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.inTouch {
+  margin: -20px;
+}
+.bottom {
+  padding-bottom: 15px;
 }
 
 @media (max-width: 900px) {
@@ -86,6 +96,9 @@ a {
   .title {
     font-size: 20px;
   }
+  .hero {
+    font-size: 30px;
+  }
 
   .hero-image {
     background-image: url("images/water2.jpg");
@@ -97,5 +110,16 @@ a {
     display: block;
     color: black;
     padding: 30px;
+    font-size: 15px;
+  }
+
+  .getInTouch {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .socials {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
